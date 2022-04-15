@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cookie-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 10000;
+}
+
+.cookie-banner.hide{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.cookie-banner-container {
+    padding: 50px;
+}
+
+label {
+    font-size: 18px;
+    padding: 0px 10px 0px 0px;
+}
+
+.submit-all {
+    float: right;
+    background-color: #1E9ED1;
+    padding: 15px;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.reject-all{
+    float: right;
+    margin-right: 10px;
+    background-color: #D3DEDC;
+    padding: 15px;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.save-btn{
+    float: right;
+    margin-right: 10px;
+    background-color: #D3DEDC;
+    padding: 15px;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}

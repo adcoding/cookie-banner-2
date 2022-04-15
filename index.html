@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Banner</title>
+</head>
+
+<body>
+
+    <div class="cookie-banner">
+        <div class="cookie-banner-container">
+            <h3>Questo sito utilizza cookies.</h3>
+            <p> Utilizziamo i cookies per personalizzare i contenuti, per fornire funzionalità di social media e per
+                analizzare il traffico.<br/> Scopri di più sulla nostra <a href="#">Cookie Policy</a> .</p>
+
+            <form>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="" checked disabled>Necessari</label>
+                <label class="checkbox-inline">
+                    <input id="analitici" onclick="functionAnalitici()" type="checkbox" value="">Analitici</label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="">Marketing</label>
+                <!-- buttons     -->
+                <button class="submit-all">Consento</button>
+                <button class="save-btn">Salva Impostazioni</button>
+                <button class="reject-all">Rifiuta tutto</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
